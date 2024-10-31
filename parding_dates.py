@@ -19,6 +19,3 @@ month_of_lansides = landsides['date_parsed'].dt.month
 month_of_lansides = month_of_lansides.dropna()
 
 sns.displot(month_of_lansides, kde = False, bins = 12)
-
-
-
